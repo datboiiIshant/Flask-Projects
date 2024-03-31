@@ -28,5 +28,7 @@ Dependencies
 Database: The application uses SQLite as the database management system, with a single table named Todo. This table has the following columns:
 
 ~ id: Primary key auto-incrementing integer.
+
 ~ content: String content of the task.
+
 ~ date_created: Date and time when the task was created.
